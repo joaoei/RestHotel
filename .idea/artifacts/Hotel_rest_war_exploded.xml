@@ -1,0 +1,22 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Hotel_rest:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/Hotel_rest_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Hotel_rest" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$USER_HOME$/Downloads/org.json.jar" />
+          <element id="file-copy" path="$USER_HOME$/Downloads/json-simple-1.1.jar" />
+          <element id="file-copy" path="$USER_HOME$/Downloads/java-json.jar" />
+          <element id="library" level="project" name="java-json" />
+          <element id="library" level="project" name="javax.ws.rs-api-2.0-m02" />
+          <element id="library" level="project" name="json-simple-1.1" />
+          <element id="library" level="project" name="org.json" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="Hotel_rest/web/Web" />
+    </root>
+  </artifact>
+</component>
