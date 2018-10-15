@@ -2,6 +2,8 @@ import javax.ws.rs.*;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
+import javax.servlet.http.HttpServletResponse;
+import javax.ws.rs.core.Context;
 
 @Path("/reserva")
 public class Reserva implements IReserva {
@@ -12,15 +14,21 @@ public class Reserva implements IReserva {
 
     private static Hotel hotel  = new Hotel(tipos, precos, quantidade_por_tipo);
 
+    @Context
+    private HttpServletResponse servletResponse;
+
+    private void allowCrossDomainAccess() {
+        if (servletResponse != null){
+            servletResponse.setHeader("Access-Control-Allow-Origin", "*");
+        }
+    }
 
     // The Java method will process HTTP GET requests
     @GET
     // The Java method will produce content identified by the MIME Media type "text/plain"
     @Produces("text/plain")
     public String hotelCriado() {
-
-
-        // Return some cliched textual content
+        allowCrossDomainAccess();
         return "Hotel Criado";
     }
 
@@ -29,6 +37,8 @@ public class Reserva implements IReserva {
     @Produces("application/json")
     @Override
     public String listarQuartosDisponiveis() {
+        allowCrossDomainAccess();
+
         boolean status = true;
         String resp = "";
         // Array de quartos
@@ -60,10 +70,10 @@ public class Reserva implements IReserva {
 
                 return resposta.toString();
             } catch (JSONException e) {
-                return "\"status\": \"false\", \"resposta\": \"" + e.getMessage() +  "\" ";
+                return "\"status\": false, \"resposta\": \"" + e.getMessage() +  "\" ";
             }
         } else {
-            return "\"status\": \"false\", \"resposta\": \""+ resp +"\" ";
+            return "\"status\": false, \"resposta\": \""+ resp +"\" ";
         }
 
     }
@@ -75,13 +85,14 @@ public class Reserva implements IReserva {
     public String reservarQuarto(
             @QueryParam("tipo") int tipo_quarto,
             @QueryParam("nome") String nome_cliente) {
+        allowCrossDomainAccess();
 
         boolean status = hotel.reservarQuarto(tipo_quarto, nome_cliente);
 
         if (status) {
-            return "{\"status\": \"" +status+ "\", \"resposta\": \"Quarto reservado com sucesso para o cliente "+ nome_cliente +"\"}";
+            return "{\"status\": " +status+ ", \"resposta\": \"Quarto reservado com sucesso para o cliente "+ nome_cliente +"\"}";
         } else {
-            return "{\"status\": \"" +status+ "\", \"resposta\": \"Não foi possível reservar o quarto\"}";
+            return "{\"status\": " +status+ ", \"resposta\": \"Não foi possível reservar o quarto\"}";
         }
     }
 
