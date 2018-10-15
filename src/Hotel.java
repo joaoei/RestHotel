@@ -19,11 +19,11 @@ public class Hotel {
         }
     }
 
-    public List<Quarto> getQuartosVagos() {
+    public synchronized List<Quarto> getQuartosVagos() {
         return quartos.stream().filter(q ->  q.isVago()).collect(Collectors.toList());
     }
 
-    public boolean reservarQuarto(int tipo_quarto, String nome_cliente) {
+    public synchronized boolean reservarQuarto(int tipo_quarto, String nome_cliente) {
         boolean status = false;
         List<Quarto> busca_quartos = quartos.stream().filter(q -> q.getTipo().equals( Integer.toString(tipo_quarto)) && q.isVago()).collect(Collectors.toList());
 
