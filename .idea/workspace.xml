@@ -7,17 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e41103c6-a0d8-4cd2-915c-a4d5b28e2f12" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Hotel_rest_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/Hotel_rest_war_exploded.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Hotel_rest_war_exploded/WEB-INF/classes/Hotel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Hotel_rest_war_exploded/WEB-INF/classes/Hotel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Hotel_rest_war_exploded/WEB-INF/classes/MyApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Hotel_rest_war_exploded/WEB-INF/classes/MyApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Hotel_rest_war_exploded/WEB-INF/classes/Quarto.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Hotel_rest_war_exploded/WEB-INF/classes/Quarto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Hotel_rest_war_exploded/WEB-INF/classes/Reserva.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Hotel_rest_war_exploded/WEB-INF/classes/Reserva.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Hotel_rest/Hotel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hotel_rest/Hotel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Hotel_rest/MyApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hotel_rest/MyApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Hotel_rest/Quarto.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hotel_rest/Quarto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Hotel_rest/Reserva.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hotel_rest/Reserva.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Reserva.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Reserva.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -83,13 +73,15 @@
     <session id="-219545330">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="5" />
+          <entry key="project.open.time.112" value="1" />
           <entry key="project.open.time.113" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.83" value="1" />
           <entry key="project.open.time.89" value="1" />
+          <entry key="project.open.time.92" value="1" />
           <entry key="project.open.time.93" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -108,13 +100,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1422" />
+          <entry key="java" value="1423" />
           <entry key="xml" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1422" />
+          <entry key="JAVA" value="1423" />
           <entry key="XML" value="4" />
         </counts>
       </usages-collector>
@@ -137,17 +129,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Quarto.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="-225">
               <caret column="21" selection-start-column="21" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Hotel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="90">
+              <caret line="6" column="55" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="55" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#Hotel#0;class#Hotel#0" />
@@ -156,11 +148,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Reserva.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="692">
-              <caret line="75" column="32" selection-start-line="75" selection-start-column="32" selection-end-line="75" selection-end-column="32" />
+            <state relative-caret-position="291">
+              <caret line="29" column="33" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -179,7 +171,11 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/IReserva.java">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -200,9 +196,9 @@
         <option value="$PROJECT_DIR$/src/MyApplication.java" />
         <option value="$PROJECT_DIR$/src/IReserva.java" />
         <option value="$PROJECT_DIR$/src/Quarto.java" />
-        <option value="$PROJECT_DIR$/src/Hotel.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/Reserva.java" />
+        <option value="$PROJECT_DIR$/src/Hotel.java" />
       </list>
     </option>
   </component>
@@ -220,10 +216,10 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="75" />
-    <option name="y" value="16" />
-    <option name="width" value="1281" />
-    <option name="height" value="732" />
+    <option name="x" value="1401" />
+    <option name="y" value="49" />
+    <option name="width" value="915" />
+    <option name="height" value="525" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -231,6 +227,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -258,8 +256,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -376,12 +372,14 @@
       <workItem from="1539528726763" duration="1025000" />
       <workItem from="1539530580566" duration="18121000" />
       <workItem from="1539564055793" duration="5018000" />
-      <workItem from="1539594564529" duration="2612000" />
+      <workItem from="1539594564529" duration="4055000" />
+      <workItem from="1539617711965" duration="1099000" />
+      <workItem from="1539686609929" duration="2241000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52771000" />
+    <option name="totallyTimeSpent" value="57554000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -393,9 +391,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1366" height="768" extended-state="6" />
+    <frame x="1366" y="0" width="1024" height="768" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28333333" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22699386" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -405,7 +404,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49848485" visible="true" weight="0.4171875" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49848485" visible="true" weight="0.140625" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39719626" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -471,13 +470,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Quarto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="21" selection-start-column="21" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -486,25 +478,36 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/IReserva.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Hotel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#Hotel#0;class#Hotel#0" />
-          </folding>
+        <state relative-caret-position="60">
+          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Reserva.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="692">
-          <caret line="75" column="32" selection-start-line="75" selection-start-column="32" selection-end-line="75" selection-end-column="32" />
+        <state relative-caret-position="291">
+          <caret line="29" column="33" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Quarto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-225">
+          <caret column="21" selection-start-column="21" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Hotel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="55" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#Hotel#0;class#Hotel#0" />
           </folding>
         </state>
       </provider>
